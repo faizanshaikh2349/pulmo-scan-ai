@@ -1,0 +1,65 @@
+# =========================
+# Python
+# =========================
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / Next.js
+# =========================
+
+node_modules/
+.next/
+out/
+.turbo/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# IDE
+# =========================
+
+.idea/
+.vscode/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python tooling
+# =========================
+
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Logs / temporary files
+# =========================
+
+*.log
+*.tmp
